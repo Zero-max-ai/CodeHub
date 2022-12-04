@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <h1>CodeHub</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="showcase">
+        <div class="container">
+            <div id="hajime">
+                <h1>Welcome to CodeHub Society</h1>
+                <p>Let's learn together :)</p>
+                <button type="submit" class="btn" id="btn">Get Started</button>
+            </div>
+            <div id="images">
+                <i class="fa-solid fa-file-code"></i>
+            </div>
+        </div>
+    </div>
+
+    <div id="courses">
+        <div class="container">
+            <div id="course" class="crs html">
+                <h1>HTML</h1>
+                <p>HTML is the structure of web page</p>
+                <button type="submit" class="crs-btn" id="cbtn">HTML</button>
+            </div>
+            <div id="course" class="crs css">
+                <h1>CSS</h1>
+                <p>CSS is used to design the web page</p>
+                <button type="submit" class="crs-btn" id="cbtn">CSS</button>
+            </div>
+            <div id="course" class="crs js">
+                <h1>JS</h1>
+                <p>JS is used to build functionality and dynamic the web page</p>
+                <button type="submit" class="crs-btn" id="cbtn">JS</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-1">
+                <h1>Web Map</h1>
+                <ul id="map">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul id="social-links">
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-2">
+                <form id="form-part">
+                    <p>Subscribe for push notifications</p>
+                    <div class="block">
+                        <label for="">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <button type="submit" id="form-btn" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
